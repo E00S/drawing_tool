@@ -6,6 +6,15 @@ function setup() {
 }
 
 function draw() {
+	var redColor = document.getElementById('r');
+	var greenColor = document.getElementById('g');
+	var blueColor = document.getElementById('b');
+
+	print(redColor.value);
+
+	fill(redColor.value, greenColor.value, blueColor.value);
+	stroke(redColor.value, greenColor.value, blueColor.value);
+
 	line(mouseX, mouseY, mouseX - 10, mouseY - 10);
 }
 
