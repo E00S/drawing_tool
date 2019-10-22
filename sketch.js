@@ -13,6 +13,7 @@ function setup() {
     let canvas = createCanvas(600, 600);
     canvas.parent("p5")
     line_color = color(0);
+    background('white');
 }
 
 function draw() {
@@ -207,7 +208,7 @@ var t = function( p2 ) {
 		p2.vertex(45, 444);
 		p2.vertex(65, 440);
 		p2.vertex(30, 465);
-		p2.vertex(55, 480);
+		p2.vertex(50, 480);
 	p2.endShape(CLOSE);    
 	p2.pop();
 	p2.fill(0);

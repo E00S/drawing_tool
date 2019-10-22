@@ -68,6 +68,14 @@
   background: black;
 }
 
+img {
+  float: right;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  top: -600px;
+}
+
 /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none; /* Override default look */
